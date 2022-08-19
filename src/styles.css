@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.header{
+  background-color: blue;
+  color: white;
+  text-align: left;
+  padding: 15px 10px;
+}
+.header h2{
+  margin: 0;
+}
+.todoContainer{
+  padding: 15px;
+  box-shadow: 0px 4px 8px -2px rgba(17, 24, 39, 0.1),
+    0px 2px 4px -2px rgba(17, 24, 39, 0.06);
+}
+
+.strikeButton{
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 7px 10px;
+    border: none;
+}
+.deleteButton{
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 7px 10px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.todoItems{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todoList{
+  
+}
+.inputActivity{
+  display: flex;
+  justify-content: space-between;
+}
+.inputActivity input{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  flex: 1;
+
+}
+.inputActivity button{
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+}
+.addButton :focus{
+  background-color: blue;
+}
+.strikeThrough{
+  text-decoration: line-through;
+  color: green;
+}
